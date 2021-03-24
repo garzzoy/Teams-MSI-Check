@@ -1,0 +1,8 @@
+How to install Teams for VDI
+https://docs.microsoft.com/en-us/microsoftteams/teams-for-vdi#install-or-update-the-teams-desktop-app-on-vdi
+This has link for latest download
+https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true
+But version details are not shown and no indication from this URL when a new version would release.
+
+This script could be used as automated task to check the above URL and download the latest version.
+Review working folder locations and update as needed.
