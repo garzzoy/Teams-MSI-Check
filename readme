@@ -1,6 +1,6 @@
 How to install Teams for VDI
-https://docs.microsoft.com/en-us/microsoftteams/teams-for-vdi#install-or-update-the-teams-desktop-app-on-vdi
-This has link for latest download
+https://docs.microsoft.com/en-us/microsoftteams/msi-deployment
+This has link for latest download.  The commercial 64-bit link is  used in this script.  Change URL for GCC/DOD/32-bit.
 https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true
 But version details are not shown and no indication from this URL when a new version would release.
 
