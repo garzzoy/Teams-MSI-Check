@@ -13,7 +13,7 @@ $newTeamsVersion = $newTeamsVersion -replace '/','.msi'
 if (-not(Test-Path -Path $folder$newTeamsVersion -PathType Leaf)){
 
 write-output "Downloading File " $folder$newTeamsVersion
-$destination = $folder +$newTeamsVersion + ".msi"
+$destination = $folder +$newTeamsVersion 
 $filedetail = Invoke-WebRequest -Uri $source -OutFile $destination
 }else{
 $date = get-date -Format "MM/dd/yyyy" 
